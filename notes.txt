@@ -20,3 +20,7 @@ Man kann git auch im Ordner Menü anpassen und Modifizieren
         wenn du jetzt in dem Berreich "Changes" auf das + Zeichen am Text drückst wird dieses 
         direkt ohne Terminal abgespeichert
 
+Es gibt in dem Berreich ein Message Feld wo man Nachrichten für andere Projekt 
+Mitarbeiter abspeichern kann.
+
+In Graphs sieht man dann welche änderungen Gemacht wurden.
