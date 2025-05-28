@@ -1,0 +1,11 @@
+Wie starte ich git?
+- öffne den Ordner in VS-Code.
+- gehe oberhalb rechts in der Leiste auf Terminal und wähle "new Terminal" an.
+- im Terminal selbst gehe auf das + und wähle "Command Prompt" an.
+- schreibe dort "git init" rein.
+
+Mit "git Status" können wir rausfinden wie der Status unseres Codes aussieht.
+
+Mit "git add ..." können wir unsere Datei zu ordenen.
+
+Mit git commit -m "... added" um den Code abzuspeichern
