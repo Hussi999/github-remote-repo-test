@@ -7,5 +7,16 @@ Wie starte ich git?
 Mit "git Status" können wir rausfinden wie der Status unseres Codes aussieht.
 
 Mit "git add ..." können wir unsere Datei zu ordenen.
+- mit "git add ." werden alle unzugeordneten Dateien zugeordnet
 
-Mit git commit -m "... added" um den Code abzuspeichern
+Mit git commit -m "... added" um die änderungen im Code abzuspeichern.
+- Wenn ein M an der Datei auftaucht ist diese Modified und wird von Git überwacht
+- Wenn man dann nochmal git add benutzt wird dieses auf den Status übertragen
+
+Man kann git auch im Ordner Menü anpassen und Modifizieren
+- Gehe auf der ganz Linken Seite auf das dritte Symbol von oben
+- Dann hast du Links in "Changes" zwei Möglichkeiten 
+        einmal gibt es den Berreich "Changes" und den Berreich "Staged Changes"
+        wenn du jetzt in dem Berreich "Changes" auf das + Zeichen am Text drückst wird dieses 
+        direkt ohne Terminal abgespeichert
+
