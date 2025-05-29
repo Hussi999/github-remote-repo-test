@@ -81,3 +81,5 @@ Man kann natürlich auch Projekte von anderen aus GitHub exportieren:
 
         Wenn man den selben Befehl benutzt nur mit . nach der URL 
         dann erstellt er keinen neuen Ordner sondern kopiert es direkt rein
+
+        Hannes huspek
