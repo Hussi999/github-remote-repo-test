@@ -24,3 +24,16 @@ Es gibt in dem Berreich ein Message Feld wo man Nachrichten für andere Projekt
 Mitarbeiter abspeichern kann.
 
 In Graphs sieht man dann welche änderungen Gemacht wurden.
+
+Wie lade ich meinen Code auf GitHub hoch?
+- zu erst müssen wir in GitHub eine neue prosperity erstellen
+- dort finden wir dann auch gleich die verschiedenen Befehle die wir brauchen um die Daten von VS-Code hoch zu puschen
+- diese werden dann einfach in der VS-Code datei im Terminal eingegeben und gespeichert
+- dafür müssen wir aber einen persönlichen Token erstellen.
+
+Personal Token
+- Um einen persönlichen Token zu erstellen müssen wir zuerst in den GitHub Browser
+- Dort klicken wir rechts oben auf unser Profilbild
+- ziemlich weit unten gibt es einen "Settings" Button den wir drücken müssen
+- In diesen Menü auf der linken Seite ganz unten können wir auf Developer einstellungen gehen
+- Dort gibt es dann die Option einen  Token zu erstellen
