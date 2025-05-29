@@ -53,3 +53,16 @@ Löscht nur den Commit aber das gespeicherte nicht
 - git reset --soft HEAD~1
 
 gibt dir die Möglichkeit den Commit nochmal anzupassen
+
+
+
+Es gibt auch einen Befehl um Sachen die schon ins Git hochgepuscht wurden zu reverten
+
+- git revert commitID
+    um das zu machen braucht man noch die ID des commits der zurückgezogen werden soll
+    - diese ID bekommt man in dem mein bei dem Berreich in Graphs von VS-Code geht 
+    - dort machst du einen Rechtsklick auf den gewünschten Commit.
+    - dort gibt es ein Feld mit "Copy Commit ID"
+
+Dies könnte dann so aussehen: git revert 3878f6e49a2b62b357c24c477bba17bf66fe311a
+Wird nur benutzt wenn der Commit schon auf Git Hub hochgeladen wurde.
