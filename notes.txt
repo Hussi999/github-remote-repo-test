@@ -66,3 +66,18 @@ Es gibt auch einen Befehl um Sachen die schon ins Git hochgepuscht wurden zu rev
 
 Dies könnte dann so aussehen: git revert 3878f6e49a2b62b357c24c477bba17bf66fe311a
 Wird nur benutzt wenn der Commit schon auf Git Hub hochgeladen wurde.
+
+
+
+Man kann natürlich auch Projekte von anderen aus GitHub exportieren:
+
+- git clone "GitHub-URL"
+    wo finde ich jetzt die GitHub-URL:
+        - gehe in GitHub auf das Profil wo du die prosperity bearbeiten willst
+        - drücke dort auf den grünen Button wo "Code" steht
+        - kopiere dir dort den Link raus und öffne diesen in einer neuen VS datei mit:
+
+        z.B.: git clone https://github.com/Hussi999/github-remote-repo-test.git
+
+        Wenn man den selben Befehl benutzt nur mit . nach der URL 
+        dann erstellt er keinen neuen Ordner sondern kopiert es direkt rein
