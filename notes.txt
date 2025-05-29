@@ -36,4 +36,20 @@ Personal Token
 - Dort klicken wir rechts oben auf unser Profilbild
 - ziemlich weit unten gibt es einen "Settings" Button den wir drücken müssen
 - In diesen Menü auf der linken Seite ganz unten können wir auf Developer einstellungen gehen
-- Dort gibt es dann die Option einen  Token zu erstellen
+- Dort gibt es dann die Option einen  Token zu erstellen.
+
+
+
+Es gibt drei Arten um in Git Commits anzupassen
+
+- git reset --hard HEAD~1
+
+Löscht das letzte erstellte commit plus alles was gespeichert und nicht Commited wurde
+
+- git reset --mixed HEAD~1
+
+Löscht nur den Commit aber das gespeicherte nicht
+
+- git reset --soft HEAD~1
+
+gibt dir die Möglichkeit den Commit nochmal anzupassen
